@@ -1,0 +1,4 @@
+*.db
+jekyll/
+uploads/
+/config.yaml

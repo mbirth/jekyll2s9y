@@ -1,0 +1,33 @@
+general:
+  jekyll_dir: jekyll
+  s9y_database: serendipity.db
+  s9y_media_dir: uploads
+  s9y_database_output: serendipity_new.db
+
+  # Timezone for stamps without one
+  timezone: Europe/Berlin
+
+# As Jekyll only knows tags, specify which tags are to be
+# considered s9y categories. Tags not mentioned here will
+# be kept as tags (serendipity_plugin_freetag)
+categories:
+  - know-how
+  - development
+  - gtd
+  - review
+  - hacking
+  - hardware
+  - software
+  - miscellaneous
+
+s9y_defaults:
+  comments: 0
+  trackbacks: 0
+  exflag: 1
+  # CHANGE THIS TO YOUR Serendipity Username
+  author: mbirth
+  # CHANGE THIS TO YOUR Serendipity User-ID
+  authorid: 1
+  isdraft: "false"
+  allow_comments: "true"
+  moderate_comments: "false"
